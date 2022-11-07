@@ -17,15 +17,12 @@ $ git push
 
 Rendus **obligatoires**:
 
-⛔️⛔️⛔️⛔️⛔️⛔️⛔️
-⛔️ TODO
-⛔️⛔️⛔️⛔️⛔️⛔️⛔️
+- `departements.py`
+- `personnes.py`
 
 Rendus facultatifs:
 
-⛔️⛔️⛔️⛔️⛔️⛔️⛔️
-⛔️ TODO
-⛔️⛔️⛔️⛔️⛔️⛔️⛔️
+- `custom_set.py`
 
 ## Évaluer votre note en local
 
@@ -111,17 +108,6 @@ False
 2
 ```
 
-**indice** En regardant le fichier
-
 ## License
 
 La base de données des communes est en ODbL, fournie sur data.gouv.fr par Mohamed Badaoui, utilisée sans modifications, export du 2022-11-07 - [source](https://www.data.gouv.fr/fr/datasets/communes-de-france-base-des-codes-postaux/#resources)
-
-
-
-All exercises above are licensed _CC BY-NC-ND, Thierry Parmentelat_
-
-- [Palindrome](https://github.com/ue12-p22/python/blob/70e65198dbe5efa84608842c327286b7218f5807/notebooks/2-09-exos.py) (added examples)
-- [Comptage dans un fichier](https://github.com/flotpython/course/blob/71e4a51e4832cc5e070b9a26bd3deedf576138a0/w3/w3-s2-x1-comptage.md) (trimmed examples)
-- [Calculatruce](https://github.com/flotpython/course/blob/71e4a51e4832cc5e070b9a26bd3deedf576138a0/w6/w6-s9-x1b-postfix.md) (added examples)
-
