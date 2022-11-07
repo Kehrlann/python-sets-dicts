@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Personnes: read",
+      "setup": "",
+      "run": "python3 -m unittest test_personnes.TestPersonnes.test_reads",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
