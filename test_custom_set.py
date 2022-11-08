@@ -56,6 +56,10 @@ class TestCustomSet(unittest.TestCase):
             size(one), 1, "Le set ne doit pas contenir deux fois le même élément")
 
     def test_faster_than_list(self):
+        one = create()
+        add(one, "1")
+        self.assertTrue(contains(one, "1"), "Le set doit fonctionner")
+
         iterations = 10_000
         custom_list = [str(x) for x in range(iterations)]
 
