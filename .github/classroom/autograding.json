@@ -9,6 +9,96 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "Personnes: create",
+      "setup": "",
+      "run": "python3 -m unittest test_personnes.TestPersonnes.test_creates_file",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Personnes: le fichier est bien aléatoire",
+      "setup": "",
+      "run": "python3 -m unittest test_personnes.TestPersonnes.test_is_random",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Départements: renvoie un ensemble",
+      "setup": "",
+      "run": "python3 -m unittest test_departements.TestDepartements.test_uses_set",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Départements: il y a 101 départements",
+      "setup": "",
+      "run": "python3 -m unittest test_departements.TestDepartements.test_size",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Custom set: ce n'est pas \"juste\" un set Python",
+      "setup": "",
+      "run": "python3 -m unittest test_custom_set.TestCustomSet.test_not_set",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Custom set: size",
+      "setup": "",
+      "run": "python3 -m unittest test_custom_set.TestCustomSet.test_size",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Custom set: add",
+      "setup": "",
+      "run": "python3 -m unittest test_custom_set.TestCustomSet.test_add_simple",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Custom set: pas de doublons",
+      "setup": "",
+      "run": "python3 -m unittest test_custom_set.TestCustomSet.test_no_duplicates",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Custom set: plus rapide qu'une liste",
+      "setup": "",
+      "run": "python3 -m unittest test_custom_set.TestCustomSet.test_faster_than_list",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
     }
   ]
 }
